@@ -2,7 +2,9 @@ package fr.artcas2.mincraftofflinestatus;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import fr.artcas2.mincraftofflinestatus.packets.*;
+import fr.artcas2.mincraftofflinestatus.packets.Disconnect;
+import fr.artcas2.mincraftofflinestatus.packets.LoginStart;
+import fr.artcas2.mincraftofflinestatus.packets.Packet;
 import fr.artcas2.mincraftofflinestatus.packets.handshake.Handshake;
 import fr.artcas2.mincraftofflinestatus.packets.status.PingRequest;
 import fr.artcas2.mincraftofflinestatus.packets.status.PongResponse;
